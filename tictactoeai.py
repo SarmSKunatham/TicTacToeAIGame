@@ -16,10 +16,10 @@ ref: https://www.kaggle.com/code/dhanushkishore/a-self-learning-tic-tac-toe-prog
 from tensorflow import keras
 # Importing required moduless
 import numpy as np 
-import pandas as pd 
+#import pandas as pd 
 # import pprint,random
 
-model_path = "/content/TicTacToeModel.h5"
+model_path = "./TicTacToeModel.h5"
 
 """# TicTacToe Game Class"""
 
@@ -124,7 +124,7 @@ def legal_moves_generator(current_board_state,turn_monitor):
 
 model = keras.models.load_model(model_path)
 
-model.summary()
+#model.summary()
 
 """## Program Move Selector"""
 
