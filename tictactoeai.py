@@ -11,13 +11,13 @@ Original file is located at
 ref: https://www.kaggle.com/code/dhanushkishore/a-self-learning-tic-tac-toe-program/notebook
 """
 
-!gdown 1fPh7kQsrev0yQ1T0GN8e4Sw2wde6D13i
+# !gdown 1fPh7kQsrev0yQ1T0GN8e4Sw2wde6D13i
 
 from tensorflow import keras
 # Importing required moduless
 import numpy as np 
 import pandas as pd 
-import pprint,random
+# import pprint,random
 
 model_path = "/content/TicTacToeModel.h5"
 
