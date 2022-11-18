@@ -3,6 +3,7 @@
 Packages used are in **requirements.txt**
 
 To run only model : `python3 tictactoeai.py`
+
 To run the GUI: `python3 TicTacToe.py`
 *The **input** is a location of mark on the table which is :*
 
