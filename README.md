@@ -23,3 +23,5 @@ To run : `python3 tictactoeai.py`
         <td>9</td>
     </tr>
 </table>
+
+Using speechRecognition with google_api (default key) to transcribe speech to text, then using that text as a command to control the TicTacToe game
