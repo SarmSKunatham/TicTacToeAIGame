@@ -9,7 +9,7 @@ def get_port(port: Optional[str]) -> str:
 
 def scan_usb_serial() -> str:
     com_ports = list_ports.comports()
-    devices = list(filter(lambda x: re.match(r'/dev/cu.usbserial-\w{4}', x.device), com_ports))
+    devices = list(filter(lambda x: re.match(r'/dev/ttyUSB\w{1}', x.device), com_ports))
     if len(devices) < 1:
         raise Exception('No Dobot found')
     if len(devices) > 1:
